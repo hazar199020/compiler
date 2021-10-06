@@ -1,0 +1,28 @@
+﻿Build started 10/06/2020 10:27:03 م.
+     1>Project "D:\My Work\مترجمات\مجلد جديد __\Flex_s15\Flex_s15\Flex_s15.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt parser.cpp scanner.cpp
+         scanner.cpp
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\scanner.cpp(26): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+         parser.cpp
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(68): error C2146: syntax error : missing '}' before identifier 'Identifier'
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(69): error C2440: 'initializing' : cannot convert from 'int' to 'yytokentype'
+                 Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(69): error C2146: syntax error : missing ';' before identifier 'Const'
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(69): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(70): error C2146: syntax error : missing ';' before identifier 'Double'
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(71): error C2143: syntax error : missing ';' before '}'
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(71): error C2059: syntax error : '}'
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(200): warning C4273: 'malloc' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(642) : see previous definition of 'malloc'
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(207): warning C4273: 'free' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(641) : see previous definition of 'free'
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(811): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>d:\my work\مترجمات\مجلد جديد __\flex_s15\flex_s15\parser.cpp(843): warning C4065: switch statement contains 'default' but no 'case' labels
+         Generating Code...
+     1>Done Building Project "D:\My Work\مترجمات\مجلد جديد __\Flex_s15\Flex_s15\Flex_s15.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.75
